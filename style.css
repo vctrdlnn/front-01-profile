@@ -1,0 +1,126 @@
+body {
+  /* Positioning */
+  position: relative;
+
+  /* Box-model */
+  display: block;
+
+  /* Typography */
+  font-family: 'Open Sans', sans-serif   ;
+  line-height: 1.2;
+  color: #0A1247;
+
+  /* Visual */
+  /* background-color: #F5E3E0;*/
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url(https://images.unsplash.com/photo-1422393462206-207b0fbd8d6b?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=47c990a481bb8bf7a6d9816d4a3f65dc)
+  /* background-image: '/image/background.jpg'
+
+  /* Misc */
+}
+
+h1,h2,h3 {
+  font-family: 'Raleway', sans-serif;
+  color: #F06449;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #7692FF;
+}
+
+a:hover {
+    background-color: #ffffb3;
+}
+
+table {
+  text-align: start;
+  white-space: normal;
+  width: 100%;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+
+  /* Visual */
+  margin-top: 100px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card-light {
+  /* Positioning */
+  margin: 10 auto;
+  padding: 1em;
+
+  /* Visual */
+  background-color: #EDE6E395;
+
+  /* Border */
+  border-style: solid;
+  border-width: .1em;
+  border-color: lightgrey;
+
+  /* Shadow */
+  box-shadow: 1 px 1px 2px grey;
+}
+
+/* Inlining items to preperly center lists*/
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+  width: 100%;
+}
+
+.list-nomarker {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+#box-socmed {
+  font-size: 1.2em
+}
+
+#tbl-passions {
+  font-size: .9em;
+  line-height: 1.5em;
+}
+
+#tbl-passions td {
+  padding: 5px;
+  vertical-align: top;
+}
+
+#tbl-places {
+  text-align: center;
+}
+
+.img-rounded {
+  border-radius: 50%;
+}
+
+#img-profile {
+  width: 30%;
+  margin-top: -20%;
+}
+
+.img-city {
+  width: 5em;
+  border-width: 1px;
+  border-color: lightgrey;
+}
+
+.image-favs {
+  width: 100%;
+  border-radius: 2%;
+}
